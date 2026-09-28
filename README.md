@@ -1,6 +1,6 @@
-# 🔨 Whack-A-Mole (두더지 대작전) - Android Game
+# 🔨 Whack-A-Mole (두더지 잡기 게임) - Android Game
 
-> Google Firebase Realtime Database 기반 실시간 다중 유저 랭킹 시스템이 탑재된 안드로이드 아케이드 게임 애플리케이션입니다.
+> Google Firebase Realtime Database 기반 실시간 다중 유저 랭킹 시스템이 탑재된 안드로이드 아케이드 게임 애플리케이션입니다. 본 프로젝트는 2023년 하반기에 진행된 결과물입니다.
 
 ---
 
