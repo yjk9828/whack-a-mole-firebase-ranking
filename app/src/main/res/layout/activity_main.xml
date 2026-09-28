@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="336dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="68dp"
+        android:gravity="center"
+        android:fontFamily="@font/ramche"
+        android:hint="Enter your ID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitle"
+        tools:layout_editor_absoluteX="37dp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="109dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#C0CA33"
+        android:onClick="startGame"
+        android:text="PLAY"
+        android:fontFamily="@font/ramche"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <Button
+        android:id="@+id/btnRanking"
+        android:layout_width="109dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C0CA33"
+        android:onClick="rankingActivity"
+        android:text="RANKING"
+        android:fontFamily="@font/ramche"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:iconTintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/ramche"
+        android:foregroundTint="#000000"
+        android:text="!! 두더지 대작전 !!"
+        android:textAlignment="center"
+        android:textColor="#431C0C"
+        android:textSize="40sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/mole_new"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
